@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag (contains Google-Analytics、Baidu-Tongji)-->
+<head>
+  <!-- Google Analytics -->
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-xxxxxx-xx"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-xxxxxx-xx');
+    </script>
+  
+
+  <!-- Baidu Tongji -->
+  
+    <script type="text/javascript">
+      // Originial
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  
+
+  <!-- Baidu Push -->
+  
+    <script>
+      (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+      })();
+    </script>
+  
+
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+  <meta name="google-site-verification" content="lxDfCplOZbIzjhG34NuQBgu2gdyRlAtMB4utP5AgEBc"/>
+  <meta name="baidu-site-verification" content="PpzM9WxOJU"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="It&#39;s an IT blog..."/>
+  <meta name="keyword" content="livemylife,IT blog,Blog"/>
+  <link rel="shortcut icon" href="/img/avatar/roguerabbit.jpg"/>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
+
+  
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/beantech.min.css"/>
+
+    <!-- Pygments Highlight CSS -->
+    <link rel="stylesheet" href="/css/highlight.css"/>
+    <link rel="stylesheet" href="/css/widget.css"/>
+    <link rel="stylesheet" href="/css/rocket.css"/>
+    <link rel="stylesheet" href="/css/signature.css"/>
+    <link rel="stylesheet" href="/css/catalog.css"/>
+    <link rel="stylesheet" href="/css/livemylife.css"/>
+
+    
+      <!-- wave start -->
+      <link rel="stylesheet" href="/css/wave.css"/>
+      <!-- wave end -->
+    
+
+    
+      <!-- top start (article top hot config) -->
+      <link rel="stylesheet" href="/css/top.css"/>
+      <!-- top end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="/css/scroll.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+      <!-- viewer start (Picture preview) -->
+      <link rel="stylesheet" href="/css/viewer.min.css"/>
+      <!-- viewer end -->
+    
+
+    
+      <!-- Search start -->
+      <link rel="stylesheet" href="/css/search.css"/>
+      <!-- Search end -->
+    
+
+    
+      <!-- ThemeColor start -->
+      <link rel="stylesheet" href="/css/themecolor.css"/>
+      <!-- ThemeColor end -->
+    
+
+    
+
+    
+  
+
+  <!-- Custom Fonts -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <!-- Hux change font-awesome CDN to qiniu -->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Hux Delete, sad but pending in China <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'> <link
+  href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/ css'> -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
+
+  <!-- ga & ba script hoook -->
+  <link rel="canonical" href="http://example.com/cn/高级程序设计语言/">
+  <title>
+    
+      高级程序设计语言 - wtz2333
+    
+  </title>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<!-- hack iOS CSS :active style -->
+
+	<body ontouchstart="" class="body--light body--light">
+
+
+		<!-- ThemeColor -->
+		
+		<!-- ThemeColor -->
+<style type="text/css">
+  .body--light {
+    --light-mode: none;
+    --dark-mode: block;
+  }
+  .body--dark {
+    --light-mode: block;
+    --dark-mode: none;
+  }
+  i.mdui-icon.material-icons.light-mode {
+    display: var(--light-mode);
+  }
+  i.mdui-icon.material-icons.dark-mode {
+    display: var(--dark-mode);
+  }
+</style>
+<div class="toggle" onclick="document.body.classList.toggle('body--dark')">
+  <i class="mdui-icon material-icons light-mode"></i>
+  <i class="mdui-icon material-icons dark-mode"></i>
+</div>
+<script>
+  //getCookieValue
+  function getCookieValue(a) {
+    var b = document.cookie.match('(^|[^;]+)\\s*' + a + '\\s*=\\s*([^;]+)');
+    return b
+      ? b.pop()
+      : '';
+  }
+  let themeMode = 'light';
+  if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
+    let dbody = document.body.classList;
+    themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
+  }
+
+  //setCookieValue
+  var toggleBtn = document.querySelector(".toggle");
+  toggleBtn.addEventListener("click", function () {
+    var e = document.body.classList.contains("body--dark");
+    var cookieString = e
+      ? "dark"
+      : "light";
+    var exp = new Date();
+    exp.setTime(exp.getTime() + 3 * 24 * 60 * 60 * 1000); //3天过期
+    document.cookie = "sb-color-mode=" + cookieString + ";expires=" + exp.toGMTString() + ";path=/";
+  });
+</script>
+
+		
+
+		<!-- Gitter -->
+		
+		<!-- Gitter -->
+<!-- Docs:https://gitter.im/?utm_source=left-menu-logo -->
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'your-community/your-room'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+		
+
+		<!-- Navigation (contains search)-->
+		<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">wtz2333&#39;s blog</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Known Issue, found by Hux: <nav>'s height woule be hold on by its content. so, when navbar scale out, the <nav> will cover tags. also mask any touch event of tags, unfortunately. -->
+    <div id="huxblog_navbar">
+      <div class="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="/">首页</a>
+          </li>
+
+          
+          
+          
+          
+          <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/categories/">
+              
+              分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
+              
+              
+            </a>
+          </li>
+          
+          
+
+          
+          <li>
+            <a class="popup-trigger">
+              <span class="search-icon"></span>搜索</a>
+          </li>
+          
+
+          <!-- LangSelect -->
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<!-- progress -->
+<div id="progress">
+  <div class="line" style="width: 0%;"></div>
+</div>
+
+<script>
+  // Drop Bootstarp low-performance Navbar Use customize navbar with high-quality material design animation in high-perf jank-free CSS3 implementation
+  var $body = document.body;
+  var $toggle = document.querySelector('.navbar-toggle');
+  var $navbar = document.querySelector('#huxblog_navbar');
+  var $collapse = document.querySelector('.navbar-collapse');
+
+  $toggle.addEventListener('click', handleMagic)
+
+  function handleMagic(e) {
+    if ($navbar.className.indexOf('in') > 0) {
+      // CLOSE
+      $navbar.className = " ";
+      // wait until animation end.
+      setTimeout(function() {
+        // prevent frequently toggle
+        if ($navbar.className.indexOf('in') < 0) {
+          $collapse.style.height = "0px"
+        }
+      }, 400)
+    } else {
+      // OPEN
+      $collapse.style.height = "auto"
+      $navbar.className += " in";
+    }
+  }
+</script>
+
+
+		<!-- Post Header (contains intro-header、signature、wordcount、busuanzi、waveoverlay) -->
+		<!-- Modified by Yu-Hsuan Yen -->
+<!-- Post Header -->
+
+  <style type="text/css">
+    .body--light {
+      /* intro-header */
+      --intro-header-background-image-url-home: url('/img/header_img/background.jpg');
+      --intro-header-background-image-url-post: url('');
+      --intro-header-background-image-url-page: url('/img/header_img/archive_bg2.jpg');
+    }
+    .body--dark {
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/background.jpg');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/archive_bg2.jpg');
+    }
+
+    header.intro-header {
+       /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url(''); */
+      
+    }
+
+    
+  </style>
+
+
+
+
+
+<header class="intro-header">
+  <!-- Signature -->
+  <div id="signature">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          
+          <div class="post-heading">
+            <div class="tags">
+              
+              <a class="tag" href="/tags/#高级程序设计语言" title="高级程序设计语言">高级程序设计语言</a>
+              
+            </div>
+            <h1>高级程序设计语言</h1>
+            <h2 class="subheading"></h2>
+            <span class="meta">
+              Posted by wtz2333 on
+              2022-09-28
+            </span>
+
+
+            
+            <!-- WordCount start -->
+            <div class="blank_box"></div>
+            <span class="meta">
+              Estimated Reading Time <span class="post-count">27</span> Minutes
+            </span>
+            <div class="blank_box"></div>
+            <span class="meta">
+              Words <span class="post-count">6.1k</span> In Total
+            </span>
+            <div class="blank_box"></div>
+            <!-- WordCount end -->
+            
+            
+            <!-- 不蒜子统计 start -->
+            <span class="meta" id="busuanzi_container_page_pv">
+              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span> Times
+            </span>
+            <!-- 不蒜子统计 end -->
+            
+
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- waveoverlay start -->
+  <div class="preview-overlay">
+    <svg class="preview-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+      </defs>
+      <g class="preview-parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill=var(--gentle-wave1)></use>
+        <use xlink:href="#gentle-wave" x="48" y="3" fill=var(--gentle-wave2)></use>
+        <use xlink:href="#gentle-wave" x="48" y="5" fill=var(--gentle-wave3)></use>
+        <use xlink:href="#gentle-wave" x="48" y="7" fill=var(--gentle-wave)></use>
+      </g>
+    </svg>
+  </div>
+  <!-- waveoverlay end -->
+  
+
+</header>
+
+
+
+		<!-- Main Content (Post contains
+	Pager、
+	tip、
+	socialshare、
+	gitalk、gitment、disqus-comment、
+	Catalog、
+	Sidebar、
+	Featured-Tags、
+	Friends Blog、
+	anchorjs、
+	) -->
+		<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
+
+        <p>本文主要用于高级程序设计语言课程的复习，本课主要对C &amp; C ++中的重要特性以及其编程思想部分进行学习，对于其中语法部分并未进行详细介绍。</p>
+<h2 id="C语言">C语言</h2>
+<h3 id="typedef">typedef</h3>
+<h4 id="typedef与define区别">typedef与define区别</h4>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span>　<span class="keyword">char</span>*　pStr1;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span>　pStr2　char*　</span></span><br><span class="line">pStr1　s1, s2;<span class="comment">// -------&gt;char *s3, *s4;</span></span><br><span class="line">pStr2　s3, s4; <span class="comment">//-------&gt;char*　s3, s4;</span></span><br></pre></td></tr></table></figure>
+<h4 id="typedef与const同时出现的一些问题">typedef与const同时出现的一些问题</h4>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="keyword">char</span> *pStr;</span><br><span class="line"><span class="keyword">char</span> <span class="built_in">string</span>[<span class="number">5</span>]=<span class="string">&quot;test&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">char</span> *p1=<span class="built_in">string</span>;</span><br><span class="line"><span class="keyword">const</span> pStr p2=<span class="built_in">string</span>;</span><br><span class="line">p1++;</span><br><span class="line">p2++;<span class="comment">// error ，p2为只读变量</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">mystrcmp</span><span class="params">(<span class="keyword">const</span> pstr, <span class="keyword">const</span> pstr)</span></span>; </span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">char</span> * pstr;<span class="function"><span class="keyword">int</span> <span class="title">mystrcmp</span><span class="params">(pstr, pstr)</span></span>;<span class="comment">// 错误的，这里const pstr会被解释为char * const </span></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">const</span> <span class="keyword">char</span> * cpstr; <span class="function"><span class="keyword">int</span> <span class="title">mystrcmp</span><span class="params">(cpstr, cpstr)</span></span>; <span class="comment">// 现在是正确的</span></span><br></pre></td></tr></table></figure>
+<p>不管什么时候，只要为指针声明 typedef，那么都要在最终的 typedef 名称中加一个 const，以使得该指针本身是常量，而不是对象。</p>
+<h4 id="typedef-掩饰符合类型">typedef 掩饰符合类型</h4>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="keyword">char</span> Line[<span class="number">81</span>]; Line text, secondline;getline(text)</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">char</span> * pstr;<span class="function"><span class="keyword">int</span> <span class="title">mystrcmp</span><span class="params">(pstr, pstr)</span></span>;</span><br></pre></td></tr></table></figure>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/superhoy/article/details/53504472">C/C++ typedef用法详解（真的很详细）_键盘tops舞者的博客-CSDN博客_c++ typedef</a></p>
+<h3 id="static-extern">static &amp; extern</h3>
+<h4 id="static">static</h4>
+<h5 id="变量">变量</h5>
+<p>普通局部变量，在任何一个函数内部定义的变量（不加static修饰符）都属于这个范畴。编译器一般不对普通局部变量进行初始化，也就是说它的值在初始时是不确定的，除非对其显式赋值。</p>
+<p>普通局部变量存储于进程栈空间，使用完毕会立即释放。</p>
+<p>静态局部变量使用static修饰符定义，即使在声明时未赋初值，编译器也会把它初始化为0。且静态局部变量存储于进程的全局数据区，即使函数返回，它的值也会保持不变。</p>
+<p>变量在全局数据区分配内存空间；编译器自动对其初始化<br>
+其作用域为局部作用域，当定义它的函数结束时，其作用域随之结束</p>
+<h5 id="函数">函数</h5>
+<p>函数的使用方式与全局变量类似，在函数的返回类型前加上static，就是静态函数。其特性如下：</p>
+<ul>
+<li>静态函数只能在声明它的文件中可见，其他文件不能引用该函数</li>
+<li>不同的文件可以使用相同名字的静态函数，互不影响</li>
+</ul>
+<blockquote>
+<p>非静态函数可以在另一个文件中直接引用，甚至不必使用extern声明</p>
+</blockquote>
+<p>函数外部的static变量及static函数只对文件内部可见</p>
+<h4 id="extern">extern</h4>
+<p>利用关键字extern，可以在一个文件中引用另一个文件中定义的变量或者函数</p>
+<p>此变量必须是全局变量。另外，extern关键字只需要指明类型和变量名就行了，不能再重新赋值，初始化需要在原文件所在处进行，如果不进行初始化的话，全局变量会被编译器自动初始化为0。但是在声明之后就可以使用变量名进行修改了。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span> </span></span><br><span class="line"><span class="keyword">int</span> i = <span class="number">3</span>; </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">p</span><span class="params">(<span class="keyword">void</span>)</span> </span>&#123; </span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,i);     </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;      </span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//--------------------------//</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span> </span></span><br><span class="line"><span class="function"><span class="keyword">extern</span> <span class="keyword">int</span> <span class="title">p</span><span class="params">(<span class="keyword">void</span>)</span></span>; </span><br><span class="line"><span class="keyword">extern</span> <span class="keyword">int</span> i; </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123; </span><br><span class="line">    p(); </span><br><span class="line">    i++;</span><br><span class="line">    p();    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;      </span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//-------------------------//</span></span><br><span class="line">输出</span><br><span class="line"><span class="number">3</span> </span><br><span class="line"><span class="number">4</span></span><br></pre></td></tr></table></figure>
+<p>虽然static类型不能被extern引用，但可以通过函数去访问。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span> </span></span><br><span class="line"><span class="keyword">static</span> <span class="keyword">int</span> i = <span class="number">3</span>; </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">p</span><span class="params">(<span class="keyword">void</span>)</span> </span>&#123; </span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,i);     </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;    </span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// ---------------------------//</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span> </span></span><br><span class="line"><span class="function"><span class="keyword">extern</span> <span class="keyword">int</span> <span class="title">p</span><span class="params">(<span class="keyword">void</span>)</span></span>; </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123; </span><br><span class="line">    p();    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;      </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><a target="_blank" rel="noopener" href="http://blog.csdn.net/on_1y/article/details/24290985">对C语言中的static关键字的深入理解_on_1y的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="http://blog.csdn.net/keyeagle/article/details/6708077">C语言中的static 详细分析_keyeagle的博客-CSDN博客_c语言static</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/guotianqing/article/details/79828100">c语言中static关键字用法详解_guotianqing的博客-CSDN博客_static</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/lwbeyond/article/details/6184035">c/c++中static详解_lwbeyond的博客-CSDN博客_c++ static</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.jb51.net/article/41686.htm">c语言中static和extern的用法详细解析_C 语言_脚本之家 (jb51.net)</a></p>
+<h3 id="指针">指针</h3>
+<h4 id="数组指针">数组指针</h4>
+<p>形如 int (*p)[];</p>
+<h4 id="指针数组">指针数组</h4>
+<p>形如 int *p[];</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> arr[<span class="number">8</span>];<span class="comment">/*一个有八个元素的整型数组*/</span></span><br><span class="line"><span class="keyword">int</span>* parr1[<span class="number">6</span>];<span class="comment">/*parr1是一个由6各元素的数组，每个元素类型是int*,是指针数组。*/</span></span><br><span class="line"><span class="keyword">int</span>(*parr2)[<span class="number">5</span>];<span class="comment">/*parr2是一个指针，指向一个数组，数组有5个元素，每个元素类型是是int.*/</span></span><br><span class="line"><span class="keyword">int</span>(*parr3[<span class="number">10</span>])[<span class="number">5</span>]; <span class="comment">/*parr1是一个10个元素的数组，每个元素类型是int*,</span></span><br><span class="line"><span class="comment">是指针数组,该数组指针有5个元素，每个元素类型是int。*/</span></span><br></pre></td></tr></table></figure>
+<h4 id="一维数组传参">一维数组传参</h4>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">test</span> <span class="params">(<span class="keyword">int</span> arr[])</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">test</span> <span class="params">(<span class="keyword">int</span> * arr)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">test</span> <span class="params">(<span class="keyword">int</span> arr[size])</span></span>;</span><br></pre></td></tr></table></figure>
+<h4 id="一维指针数组传参">一维指针数组传参</h4>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">test</span> <span class="params">(<span class="keyword">int</span> * arr[])</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">test</span> <span class="params">(<span class="keyword">int</span> * arr[size])</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">test</span> <span class="params">(<span class="keyword">int</span> ** arr)</span></span>;</span><br></pre></td></tr></table></figure>
+<h4 id="二维数组传参">二维数组传参</h4>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">test</span> <span class="params">(<span class="keyword">int</span> arr[][])</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">test</span> <span class="params">(<span class="keyword">int</span> (*arr)[])</span></span>;</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> num1 = <span class="number">10</span>;</span><br><span class="line">    <span class="keyword">double</span> num2 = <span class="number">10.5</span>;</span><br><span class="line">    num1 = <span class="number">20</span>;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">typedef</span> <span class="keyword">int</span>* INTPNT;</span><br><span class="line">    <span class="keyword">int</span>* pN1 = &amp;num1;</span><br><span class="line">    <span class="keyword">double</span>* pN2 = &amp;num2;</span><br><span class="line">    INTPNT pN3 = &amp;num1;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;size of int: %d\n&quot;</span>, <span class="built_in"><span class="keyword">sizeof</span></span>(<span class="keyword">int</span>));</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;size of int*: %d\n&quot;</span>, <span class="built_in"><span class="keyword">sizeof</span></span>(<span class="keyword">int</span>*));</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;size of double*: %d\n&quot;</span>, <span class="built_in"><span class="keyword">sizeof</span></span>(<span class="keyword">double</span>*));</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;pN1: %x\n&quot;</span>, pN1);</span><br><span class="line">    <span class="keyword">int</span>* pN4 = (<span class="keyword">int</span>*)<span class="number">0x61fdfc</span>;</span><br><span class="line">    *pN4 = <span class="number">200</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;num1: %d\n&quot;</span>, num1);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//----------------------------------------//</span></span><br><span class="line">输出：</span><br><span class="line">size of <span class="keyword">int</span>: <span class="number">4</span></span><br><span class="line">size of <span class="keyword">int</span>*: <span class="number">8</span></span><br><span class="line">size of <span class="keyword">double</span>*: <span class="number">8</span></span><br><span class="line">pN1: <span class="number">62f</span>dfc</span><br><span class="line">num1: <span class="number">200</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">swap</span><span class="params">(<span class="keyword">int</span> i, <span class="keyword">int</span> j)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> temp = i;</span><br><span class="line">    i = j;</span><br><span class="line">    j = temp;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;i: %d, j: %d\n&quot;</span>, i,j);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">10</span>, b = <span class="number">20</span>;</span><br><span class="line">    swap(a, b);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;a: %d, b: %d\n&quot;</span>, a,b);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//-----------------------------------//</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">swap</span><span class="params">(<span class="keyword">int</span>* i, <span class="keyword">int</span>* j)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span>* temp = i;</span><br><span class="line">    i = j;</span><br><span class="line">    j = temp;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;i: %d, j: %d\n&quot;</span>, *i,*j);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">10</span>, b = <span class="number">20</span>;</span><br><span class="line">    swap(&amp;a,&amp;b);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;a: %d, b: %d\n&quot;</span>, a,b);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//-----------------------------------//</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">swap</span><span class="params">(<span class="keyword">int</span>* i, <span class="keyword">int</span>* j)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> temp = *i;</span><br><span class="line">    *i = *j;</span><br><span class="line">    *j = temp;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;i: %d, j: %d\n&quot;</span>, *i,*j);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">10</span>, b = <span class="number">20</span>;</span><br><span class="line">    swap(&amp;a,&amp;b);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;a: %d, b: %d\n&quot;</span>, a,b);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> arr[<span class="number">5</span>] = &#123;<span class="number">10</span>,<span class="number">20</span>,<span class="number">30</span>,<span class="number">40</span>,<span class="number">50</span>&#125;;</span><br><span class="line">    <span class="comment">//连续存放的相同数据类型的数</span></span><br><span class="line">    <span class="comment">//数组名，数组名是一个变量</span></span><br><span class="line">    <span class="comment">// []是一个运算符</span></span><br><span class="line">    <span class="keyword">int</span>* pArr = &amp;arr[<span class="number">0</span>];</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;arr[3] is: %d\n&quot;</span>, arr[<span class="number">3</span>]);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;*(pArr+3) is: %d\n&quot;</span>, *(pArr+<span class="number">3</span>));</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;arr[3] is: %d\n&quot;</span>, *(arr+<span class="number">3</span>));</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;pArr[3] is: %d\n&quot;</span>, pArr[<span class="number">3</span>]);</span><br><span class="line"></span><br><span class="line">    pArr = &amp;arr[<span class="number">3</span>];</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;*(pArr+1) is: %d\n&quot;</span>, *(pArr+<span class="number">1</span>));</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;*(pArr-1) is: %d\n&quot;</span>, *(pArr<span class="number">-1</span>));</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;pArr[1] is: %d\n&quot;</span>, pArr[<span class="number">1</span>]);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;pArr[-1] is: %d\n&quot;</span>, pArr[<span class="number">-1</span>]);</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;arr[-1] is: %d\n&quot;</span>, arr[<span class="number">-1</span>]);</span><br><span class="line">    <span class="comment">//-----------------------//</span></span><br><span class="line">    <span class="keyword">int</span>* pArr1;</span><br><span class="line">    pArr1 = (<span class="keyword">int</span>*) <span class="built_in">malloc</span>(<span class="number">5</span>*<span class="keyword">sizeof</span>(<span class="keyword">int</span>));</span><br><span class="line"></span><br><span class="line">    pArr[<span class="number">3</span>] = <span class="number">210</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;pArr[3] is: %d\n&quot;</span>, *(pArr1+<span class="number">3</span>));</span><br><span class="line"></span><br><span class="line">    *(pArr1+<span class="number">0</span>) = <span class="number">450</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;*pArr is: %d\n&quot;</span>, *pArr1);</span><br><span class="line"></span><br><span class="line">    <span class="built_in">free</span>(pArr1);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//--------------------------------------//</span></span><br><span class="line">输出：</span><br><span class="line">arr[<span class="number">3</span>] is: <span class="number">40</span></span><br><span class="line">*(pArr+<span class="number">3</span>) is: <span class="number">40</span></span><br><span class="line">arr[<span class="number">3</span>] is: <span class="number">40</span></span><br><span class="line">pArr[<span class="number">3</span>] is: <span class="number">40</span></span><br><span class="line">*(pArr+<span class="number">1</span>) is: <span class="number">50</span></span><br><span class="line">*(pArr<span class="number">-1</span>) is: <span class="number">30</span></span><br><span class="line">pArr[<span class="number">1</span>] is: <span class="number">50</span></span><br><span class="line">pArr[<span class="number">-1</span>] is: <span class="number">30</span></span><br><span class="line">arr[<span class="number">-1</span>] is: <span class="number">0</span></span><br><span class="line">pArr[<span class="number">3</span>] is: <span class="number">0</span></span><br><span class="line">*pArr is: <span class="number">450</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">func1</span><span class="params">(<span class="keyword">int</span> arr[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">//</span></span><br><span class="line">    arr[<span class="number">3</span>] = <span class="number">2000</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;1: arr[3] is: %d\n&quot;</span>, arr[<span class="number">3</span>]);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">func2</span><span class="params">(<span class="keyword">int</span>* pArr)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    pArr[<span class="number">3</span>] = <span class="number">200</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;2: pArr[3] is: %d\n&quot;</span>, pArr[<span class="number">3</span>]);</span><br><span class="line">&#125;<span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> arr[<span class="number">5</span>] = &#123;<span class="number">10</span>,<span class="number">20</span>,<span class="number">30</span>,<span class="number">40</span>,<span class="number">50</span>&#125;;</span><br><span class="line">    <span class="comment">//连续存放的相同数据类型的数</span></span><br><span class="line">    <span class="comment">//数组名，数组名是一个变量</span></span><br><span class="line">    <span class="comment">// []是一个运算符</span></span><br><span class="line">    <span class="built_in">func2</span>(arr);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;main1: arr[3] is: %d\n&quot;</span>, *(arr+<span class="number">3</span>));</span><br><span class="line"></span><br><span class="line">    <span class="built_in">func1</span>(arr);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;main2: arr[3] is: %d\n&quot;</span>, *(arr+<span class="number">3</span>));</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span>* pArr;</span><br><span class="line">    pArr = (<span class="keyword">int</span>*) <span class="built_in">malloc</span>(<span class="number">5</span>*<span class="built_in"><span class="keyword">sizeof</span></span>(<span class="keyword">int</span>));</span><br><span class="line"></span><br><span class="line">    pArr[<span class="number">3</span>] = <span class="number">210</span>; <span class="comment">//按索引取值运算符</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;pArr[3] is: %d\n&quot;</span>, *(pArr+<span class="number">3</span>));</span><br><span class="line"></span><br><span class="line">    *(pArr+<span class="number">0</span>) = <span class="number">450</span>;</span><br><span class="line">    *pArr = <span class="number">1450</span>;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;*pArr is: %d\n&quot;</span>, *pArr);</span><br><span class="line"></span><br><span class="line">    <span class="built_in">free</span>(pArr);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">500</span>;</span><br><span class="line">    <span class="keyword">int</span>* p = &amp;a;</span><br><span class="line">    <span class="keyword">int</span>** p2 = &amp;p; <span class="comment">//char**</span></span><br><span class="line">    *p = <span class="number">5000</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//------------------------------//</span></span><br><span class="line">输出：</span><br><span class="line"><span class="number">2</span>: pArr[<span class="number">3</span>] is: <span class="number">200</span></span><br><span class="line">main1: arr[<span class="number">3</span>] is: <span class="number">200</span></span><br><span class="line"><span class="number">1</span>: arr[<span class="number">3</span>] is: <span class="number">2000</span></span><br><span class="line">main2: arr[<span class="number">3</span>] is: <span class="number">2000</span></span><br><span class="line">pArr[<span class="number">3</span>] is: <span class="number">210</span></span><br><span class="line">*pArr is: <span class="number">1450</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">func3</span><span class="params">(<span class="keyword">int</span> (*p3)[<span class="number">3</span>])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;11 is: %x\n&quot;</span>,p3);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;12 is: %x\n&quot;</span>,&amp;p3);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">func4</span><span class="params">(<span class="keyword">int</span> arr[][<span class="number">3</span>])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;13 is: %x\n&quot;</span>,arr);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;14 is: %x\n&quot;</span>,&amp;arr);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> arr[<span class="number">3</span>][<span class="number">3</span>]=&#123;&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;,&#123;<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>&#125;,&#123;<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>&#125;&#125;;</span><br><span class="line">    <span class="keyword">int</span> arr2[<span class="number">4</span>][<span class="number">3</span>]=&#123;&#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;,</span><br><span class="line">                    &#123;<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>&#125;,</span><br><span class="line">                    &#123;<span class="number">7</span>,<span class="number">8</span>,<span class="number">9</span>&#125;,</span><br><span class="line">                    &#123;<span class="number">10</span>,<span class="number">11</span>,<span class="number">12</span>&#125;&#125;;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span>* pArr = &amp;arr[<span class="number">0</span>][<span class="number">0</span>];</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;1: pArr[7] is: %d\n&quot;</span>, pArr[<span class="number">7</span>]);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> (*pArr2)[<span class="number">3</span>];</span><br><span class="line">    pArr2 = arr;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;2: pArr2[1][1] is: %d\n&quot;</span>, pArr2[<span class="number">1</span>][<span class="number">1</span>]);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;3: *((pArr2+1)+1) is: %d\n&quot;</span>, *(*(pArr2+<span class="number">1</span>)+<span class="number">1</span>));</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> (*pArr3)[<span class="number">4</span>];</span><br><span class="line">    pArr3 = arr;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;4: pArr3[1][1] is: %d\n&quot;</span>, pArr3[<span class="number">1</span>][<span class="number">1</span>]);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;5: *((pArr3+1)+1) is: %d\n&quot;</span>, *(*(pArr3+<span class="number">1</span>)+<span class="number">1</span>));</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span>* pArr4[<span class="number">3</span>];</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> a = <span class="number">10</span>, b = <span class="number">20</span>, c = <span class="number">30</span>;</span><br><span class="line">    pArr4[<span class="number">0</span>]=&amp;a;</span><br><span class="line">    pArr4[<span class="number">1</span>]=&amp;b;</span><br><span class="line">    pArr4[<span class="number">2</span>]=&amp;c;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;6: *(pArr4[1]) is: %d\n&quot;</span>, *(pArr4[<span class="number">1</span>]));</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;7: *(pArr4[1]) is: %d\n&quot;</span>, *(*(pArr4+<span class="number">1</span>)));</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span>** ppArr = <span class="built_in">malloc</span>(<span class="number">3</span>*<span class="keyword">sizeof</span>(<span class="keyword">int</span>*));</span><br><span class="line"></span><br><span class="line">    ppArr[<span class="number">0</span>]=pArr2;</span><br><span class="line">    ppArr[<span class="number">1</span>]=pArr2+<span class="number">1</span>;</span><br><span class="line">    ppArr[<span class="number">2</span>]=pArr2+<span class="number">2</span>;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;8: ppArr[1][1] is: %d\n&quot;</span>, ppArr[<span class="number">1</span>][<span class="number">1</span>]);</span><br><span class="line"></span><br><span class="line">    <span class="built_in">free</span>(ppArr);</span><br><span class="line">    func3(arr);</span><br><span class="line">    func4(arr);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//-------------------------------------------------//</span></span><br><span class="line">输出：</span><br><span class="line"><span class="number">1</span>: pArr[<span class="number">7</span>] is: <span class="number">8</span></span><br><span class="line"><span class="number">2</span>: pArr2[<span class="number">1</span>][<span class="number">1</span>] is: <span class="number">5</span></span><br><span class="line"><span class="number">3</span>: *((pArr2+<span class="number">1</span>)+<span class="number">1</span>) is: <span class="number">5</span></span><br><span class="line"><span class="number">4</span>: pArr3[<span class="number">1</span>][<span class="number">1</span>] is: <span class="number">6</span></span><br><span class="line"><span class="number">5</span>: *((pArr3+<span class="number">1</span>)+<span class="number">1</span>) is: <span class="number">6</span></span><br><span class="line"><span class="number">6</span>: *(pArr4[<span class="number">1</span>]) is: <span class="number">20</span></span><br><span class="line"><span class="number">7</span>: *(pArr4[<span class="number">1</span>]) is: <span class="number">20</span></span><br><span class="line"><span class="number">8</span>: ppArr[<span class="number">1</span>][<span class="number">1</span>] is: <span class="number">5</span></span><br><span class="line"><span class="number">11</span> is: <span class="number">62f</span>dd0</span><br><span class="line"><span class="number">12</span> is: <span class="number">62f</span>d50</span><br><span class="line"><span class="number">13</span> is: <span class="number">62f</span>dd0</span><br><span class="line"><span class="number">14</span> is: <span class="number">62f</span>d50</span><br></pre></td></tr></table></figure>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_58949482/article/details/124068513">(12条消息) C语言——指针_小浩终会上岸的博客-CSDN博客</a></p>
+<h3 id="字符串">字符串</h3>
+<h4 id="strlen">strlen</h4>
+<p>原型：strlen( const char string[] );</p>
+<p>原理:由char数组的头指针扫到第一个’\0’的位置。</p>
+<h4 id="strcpy">strcpy</h4>
+<p>原型：strcpy(char destination[], const char source[]);</p>
+<p>strcpy把含有<code>'\0'</code>结束符的字符串复制到另一个地址空间，返回值的类型为char*</p>
+<h4 id="strncpy">strncpy</h4>
+<p>原型：strncpy(char destination[], const char source[], int numchars);<br>
+功能：将字符串source中前numchars个字符拷贝到字符串destination中，但依然只取到第一个<code>'\0'</code>的位置。</p>
+<h4 id="strcat">strcat</h4>
+<p>原型：strcat(char target[], const char source[]);<br>
+功能：将字符串source接到字符串target的后面</p>
+<h4 id="strncat">strncat</h4>
+<p>原型：strncat(char target[], const char source[], int numchars);<br>
+功能：将字符串source的前numchars个字符接到字符串target的后面，但依然只取到第一个<code>'\0'</code>的位置。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">char</span> s1[<span class="number">10</span>] = <span class="string">&quot;111111111&quot;</span>;</span><br><span class="line">    <span class="keyword">char</span> s2[<span class="number">10</span>] = <span class="string">&quot;222222&quot;</span>;</span><br><span class="line">    <span class="keyword">int</span> n = <span class="built_in">strlen</span>(s1);</span><br><span class="line">    <span class="built_in">strcpy</span>(s1,s2);</span><br><span class="line">    <span class="keyword">int</span> i;</span><br><span class="line">    <span class="keyword">for</span>(i = <span class="number">0</span>;i &lt; n;i ++)<span class="built_in">printf</span>(<span class="string">&quot;%c&quot;</span>,s1[i]); </span><br><span class="line">     <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">char chArr3[] = &#123;&#x27;h&#x27;, &#x27;e&#x27;, &#x27;l &#x27;, &#x27;l&#x27;, &#x27;o&#x27;, &#x27;\0&#x27;&#125;; //&quot;hello&quot;</span><br><span class="line"><span class="keyword">char</span> chArr4[] =   <span class="string">&quot;hello&quot;</span>;  <span class="comment">//strlen();</span></span><br><span class="line"><span class="keyword">char</span>* pArr12 = <span class="string">&quot;hello&quot;</span>;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;11: chArr4 is: %c\n&quot;</span>, chArr4[<span class="number">3</span>]);</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;12: chArr3 is: %c\n&quot;</span>, chArr3[<span class="number">3</span>]);</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> arr10[] = &#123;<span class="number">10</span>,<span class="number">20</span>,<span class="number">30</span>,<span class="number">40</span>,<span class="number">50</span>&#125;;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;13: arr10[3] is: %d\n&quot;</span>, arr10[<span class="number">3</span>]);</span><br><span class="line">arr10[<span class="number">10</span>]=<span class="number">175</span>;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;14: arr10[10] is: %d\n&quot;</span>, arr10[<span class="number">10</span>]);</span><br><span class="line"><span class="comment">//---------------------------------//</span></span><br><span class="line">输出：</span><br><span class="line"><span class="number">11</span>: chArr4 is: l</span><br><span class="line"><span class="number">12</span>: chArr3 is: l</span><br><span class="line"><span class="number">13</span>: arr10[<span class="number">3</span>] is: <span class="number">40</span></span><br><span class="line"><span class="number">14</span>: arr10[<span class="number">10</span>] is: <span class="number">175</span></span><br></pre></td></tr></table></figure>
+<p><a target="_blank" rel="noopener" href="https://www.jb51.net/article/37410.htm">C语言字符串操作总结大全(超详细)_C 语言_脚本之家</a></p>
+<h3 id="函数指针">函数指针</h3>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">addition</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> (a+b);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">sub</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> (a-b);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">mult</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> (a*b);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">printHello</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World\n&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span>** args)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> (*pAdd)(<span class="keyword">int</span>, <span class="keyword">int</span>) = &amp;addition;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;0:pAdd is %x\n&quot;</span>, pAdd);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> d = (*pAdd)(<span class="number">5</span>, <span class="number">10</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> (*pAdd2)(<span class="keyword">int</span>, <span class="keyword">int</span>);</span><br><span class="line">    pAdd2 = <span class="number">0x401530</span>;</span><br><span class="line">    <span class="keyword">int</span> c = pAdd2(<span class="number">5</span>, <span class="number">10</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">void</span> (*p4)(<span class="keyword">void</span>) = printHello;</span><br><span class="line">    p4();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">void</span>* pAdd3;</span><br><span class="line"></span><br><span class="line">    pAdd3 = <span class="number">0x401530</span>;</span><br><span class="line">    <span class="keyword">int</span> e = ((<span class="keyword">int</span> (*)(<span class="keyword">int</span>,<span class="keyword">int</span>))pAdd3)(<span class="number">5</span>, <span class="number">10</span>);</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;1:c is %d\n&quot;</span>, c);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;2:d is %d\n&quot;</span>, d);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;3:e is %d\n&quot;</span>, e);</span><br><span class="line"></span><br><span class="line">    pAdd3 = p4;</span><br><span class="line">    ((<span class="keyword">void</span> (*)(<span class="keyword">void</span>))pAdd3)();</span><br><span class="line"></span><br><span class="line"><span class="comment">//       int (*pAdd)(int, int) = &amp;addition;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//menu 菜单</span></span><br><span class="line">    <span class="keyword">int</span> (*pArr[<span class="number">3</span>])(<span class="keyword">int</span>, <span class="keyword">int</span>);</span><br><span class="line"></span><br><span class="line">    pArr[<span class="number">0</span>] = addition;</span><br><span class="line">    pArr[<span class="number">1</span>] = sub;</span><br><span class="line">    pArr[<span class="number">2</span>] = mult;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;4:result is %d\n&quot;</span>, (pArr[<span class="number">2</span>])(<span class="number">10</span>,<span class="number">5</span>));</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//---------------------------------------------------//</span></span><br><span class="line">输出：</span><br><span class="line"><span class="number">0</span>:pAdd is <span class="number">401530</span></span><br><span class="line">Hello World</span><br><span class="line"><span class="number">1</span>:c is <span class="number">15</span></span><br><span class="line"><span class="number">2</span>:d is <span class="number">15</span></span><br><span class="line"><span class="number">3</span>:e is <span class="number">15</span></span><br><span class="line">Hello World</span><br><span class="line"><span class="number">4</span>:result is <span class="number">50</span></span><br></pre></td></tr></table></figure>
+<p><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=Mzg5MjAxNzEyMg==&amp;mid=2247484349&amp;idx=1&amp;sn=624a71a0daf277e53367783145c9735b&amp;chksm=cfc5c330f8b24a26e31daff659e53ed28d151d35e888d4376ec0b2083c414ced3432b8f51b91&amp;token=1556295401&amp;lang=zh_CN#rd">https://mp.weixin.qq.com/s?__biz=Mzg5MjAxNzEyMg==&amp;mid=2247484349&amp;idx=1&amp;sn=624a71a0daf277e53367783145c9735b&amp;chksm=cfc5c330f8b24a26e31daff659e53ed28d151d35e888d4376ec0b2083c414ced3432b8f51b91&amp;token=1556295401&amp;lang=zh_CN#rd</a></p>
+<h3 id="struct-union">struct &amp; union</h3>
+<h4 id="struct">struct</h4>
+<p>对于位段结构，编译器会自动进行存储空间的优化，主要有这几条原则:</p>
+<p>1)如果一个位段存储单元能够存储得下位段结构中的所有成员，那么位段结构中的所有成员只能放在一个位段存储单元中，不能放在两个位段存储单元中；如果一个位段存储单元不能容纳下位段结构中的所有成员，那么从剩余的位段从下一个位段存储单元开始存放。(在VC中位段存储单元的大小是4字节).</p>
+<p>2)如果一个位段结构中只有一个占有0位的无名位段，则只占1或0字节的空间(C语言中是占0字节，而C++中占1字节)；否则其他任何情况下，一个位段结构所占的空间至少是一个位段存储单元的大小；</p>
+<p>内存对齐：</p>
+<p>int 4byte , char 1byte , double 8 byte , float 4 byte , short 2byte , long 4byte，</p>
+<p>long long 8byte(win32或64位机器下)，(win64位机器下指针为8byte，32位机器下为4byte)</p>
+<p>以结构体下最大成员长度进行对齐。如果结构体内部的数据成员也是一个结构体，这种情况下内部的结构体不会被看作一个整体，而是以内部结构体当中<strong>最大元素的大小</strong>作为判断依据</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">DATE</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">int</span> year;</span><br><span class="line">    <span class="keyword">int</span> month;</span><br><span class="line">    <span class="keyword">int</span> day;</span><br><span class="line">&#125; *dp;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">int</span> year;</span><br><span class="line">    <span class="keyword">int</span> month;</span><br><span class="line">    <span class="keyword">int</span> day;</span><br><span class="line">&#125; MDATE;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">int</span> year;</span><br><span class="line">    <span class="keyword">int</span> month;</span><br><span class="line">    <span class="keyword">int</span> day;</span><br><span class="line">&#125; d0 = &#123;<span class="number">2022</span>, <span class="number">4</span>, <span class="number">25</span>&#125;;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">int</span> year;</span><br><span class="line">    <span class="keyword">int</span> month;</span><br><span class="line">    <span class="keyword">int</span> day;</span><br><span class="line">&#125; *dp2;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">DATE2</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">char</span> year;</span><br><span class="line">    <span class="keyword">char</span> month;</span><br><span class="line">    <span class="keyword">int</span> day;</span><br><span class="line">&#125; d2;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">DATE3</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">char</span> year;</span><br><span class="line">    <span class="keyword">int</span> month;</span><br><span class="line">    <span class="keyword">char</span> day;</span><br><span class="line"></span><br><span class="line">&#125; d3;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span>** args)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">DATE</span> <span class="title">d1</span> =</span> &#123;<span class="number">2022</span>, <span class="number">4</span>, <span class="number">25</span>&#125;;</span><br><span class="line">    MDATE d5 = &#123;<span class="number">2022</span>, <span class="number">4</span>, <span class="number">25</span>&#125;;</span><br><span class="line">    dp = &amp;d1;</span><br><span class="line">    dp2 = &amp;d0;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;0:month is %d\n&quot;</span>, dp2-&gt;month);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;1:year is %d\n&quot;</span>, dp-&gt;year);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;2:sizeof(d2) is %d\n&quot;</span>, <span class="keyword">sizeof</span>(d2));</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;3:sizeof(d3) is %d\n&quot;</span>, <span class="keyword">sizeof</span>(d3));</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//------------------------------------//</span></span><br><span class="line">输出：</span><br><span class="line"><span class="number">0</span>:month is <span class="number">4</span></span><br><span class="line"><span class="number">1</span>:year is <span class="number">2022</span></span><br><span class="line"><span class="number">2</span>:<span class="keyword">sizeof</span>(d2) is <span class="number">8</span></span><br><span class="line"><span class="number">3</span>:<span class="keyword">sizeof</span>(d3) is <span class="number">12</span></span><br></pre></td></tr></table></figure>
+<h4 id="union">union</h4>
+<p>union大小为最大成员长度。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span>  </span></span><br><span class="line"><span class="class"><span class="keyword">union</span> <span class="title">var</span>&#123;</span>  </span><br><span class="line">        <span class="keyword">char</span> c[<span class="number">4</span>];  </span><br><span class="line">        <span class="keyword">int</span> i;  </span><br><span class="line">&#125;;  </span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;  </span><br><span class="line">        <span class="class"><span class="keyword">union</span> <span class="title">var</span> <span class="title">data</span>;</span>  </span><br><span class="line">        data.c[<span class="number">0</span>] = <span class="number">0x04</span>;<span class="comment">//因为是char类型，数字不要太大，算算ascii的范围~  </span></span><br><span class="line">        data.c[<span class="number">1</span>] = <span class="number">0x03</span>;<span class="comment">//写成16进制为了方便直接打印内存中的值对比  </span></span><br><span class="line">        data.c[<span class="number">2</span>] = <span class="number">0x02</span>;  </span><br><span class="line">        data.c[<span class="number">3</span>] = <span class="number">0x11</span>;  </span><br><span class="line"><span class="comment">//数组中下标低的，地址也低，按地址从低到高，内存内容依次为：04,03,02,11。总共四字节！  </span></span><br><span class="line"><span class="comment">//而把四个字节作为一个整体（不分类型，直接打印十六进制），应该从内存高地址到低地址看，0x11020304，低位04放在低地址上。  </span></span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;%x\n&quot;</span>,data.i);  </span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//------------------------------//</span></span><br><span class="line"><span class="number">11020304</span>  </span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> <span class="class"><span class="keyword">union</span> &#123;</span> </span><br><span class="line">    <span class="keyword">char</span> c[<span class="number">4</span>]; </span><br><span class="line">    <span class="keyword">unsigned</span> <span class="keyword">long</span> l; </span><br><span class="line">&#125;endian_test = &#123; &#123; <span class="string">&#x27;l&#x27;</span>, <span class="string">&#x27;?&#x27;</span>, <span class="string">&#x27;?&#x27;</span>, <span class="string">&#x27;b&#x27;</span> &#125; &#125;;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ENDIANNESS ((char)endian_test.l)</span></span><br></pre></td></tr></table></figure>
+<p><a target="_blank" rel="noopener" href="http://c.biancheng.net/c/100/">C语言结构体详解</a></p>
+<p><a target="_blank" rel="noopener" href="http://c.biancheng.net/view/2033.html">C语言结构体指针（指向结构体的指针）详解</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/yooppa/article/details/113566693">指向结构体数组的指针_ahyo的博客-CSDN博客_指向结构体数组的指针</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/veis/p/7073076.html">C语言柔性数组讲解 - veis - 博客园</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/si_zhou_qun_84342712/article/details/53187106">C语言联合体（union）的使用方法及其本质-union_si_zhou_qun_84342712的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="http://www.jb51.net/article/98371.htm">C语言 位段的详细介绍_C 语言_脚本之家</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/wwwlyj123321/article/details/100066463">什么是大小端？如何确定大小端？_wwwlyj123321的博客-CSDN博客_大小端</a></p>
+<h3 id="内存管理">内存管理</h3>
+<h4 id="malloc">malloc</h4>
+<p>如果分配成功：则返回指向被分配内存空间的指针；<br>
+不然返回指针NULL。</p>
+<p>malloc需要我们自己计算字节数，并且返回的时候要强转成指定类型的指针。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> *p;</span><br><span class="line">p = (<span class="keyword">int</span> *)<span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(<span class="keyword">int</span>));</span><br></pre></td></tr></table></figure>
+<h4 id="new">new</h4>
+<p>new返回指定类型的指针，并且可以自动计算所需要的大小。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> *p;</span><br><span class="line">p = <span class="keyword">new</span> <span class="keyword">int</span>;<span class="comment">//返回类型为int* ，分配的大小是sizeof(int)</span></span><br><span class="line">p = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">100</span>];<span class="comment">//返回类型是int*类型，分配的大小为sizeof(int)*100</span></span><br></pre></td></tr></table></figure>
+<p><a target="_blank" rel="noopener" href="http://c.biancheng.net/c/memory/">内存分配函数及使用注意事项，C语言内存分配函数完全攻略</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/flowing_wind/article/details/81240910">【c语言】malloc函数详解_Billy12138的博客-CSDN博客_malloc函数</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/YEDITABA/article/details/53443792">malloc函数实现原理！_YEDITABA的博客-CSDN博客_malloc 的实现原理</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/amanlikethis/p/3765908.html">如何实现一个malloc函数 - amanlikethis - 博客园</a></p>
+<h3 id="File">File</h3>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/saolv/p/7793379.html">C语言文件操作详解 - 扫驴 - 博客园</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/haore147/p/3648395.html">c语言_文件操作_FILE结构体解释_涉及对操作系统文件FCB操作的解释_ - 二郎那个三郎 - 博客园</a></p>
+<h3 id="define">define</h3>
+<h4 id="连接操作符">## 连接操作符</h4>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> n = Conn(<span class="number">123</span>,<span class="number">456</span>);</span><br><span class="line">     ==&gt; <span class="keyword">int</span> n=<span class="number">123456</span>;</span><br><span class="line"><span class="keyword">char</span>* str = Conn(<span class="string">&quot;asdf&quot;</span>, <span class="string">&quot;adf&quot;</span>);</span><br><span class="line">     ==&gt; <span class="keyword">char</span>* str = <span class="string">&quot;asdfadf&quot;</span>;</span><br></pre></td></tr></table></figure>
+<h4 id="字符化操作符">#@ 字符化操作符</h4>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> a = ToChar(<span class="number">1</span>);</span><br><span class="line">     ==&gt; <span class="keyword">char</span> a=<span class="string">&#x27;1&#x27;</span>;</span><br><span class="line"><span class="keyword">char</span> a = ToChar(<span class="number">123</span>);</span><br><span class="line">     ==&gt; <span class="keyword">char</span> a=<span class="string">&#x27;3&#x27;</span>;</span><br></pre></td></tr></table></figure>
+<p>但是如果参数超过四个字符，编译器就给报错了。</p>
+<h4 id="字符串化操作符"># 字符串化操作符</h4>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> xstr(s) str(s)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> str(s) #s</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> foo 4</span></span><br><span class="line">str (foo)</span><br><span class="line">     ==&gt; <span class="string">&quot;foo&quot;</span></span><br><span class="line">xstr (foo)</span><br><span class="line">     ==&gt; xstr (<span class="number">4</span>)</span><br><span class="line">     ==&gt; str (<span class="number">4</span>)</span><br><span class="line">     ==&gt; <span class="string">&quot;4&quot;</span></span><br></pre></td></tr></table></figure>
+<h4 id="行继续操作">\ 行继续操作</h4>
+<h4 id="VA-ARGS"><strong>VA_ARGS</strong></h4>
+<p>__VA_ARGS__宏用来接受不定数量的参数。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> eprintf(...) fprintf (stderr, __VA_ARGS__)</span></span><br><span class="line"></span><br><span class="line">eprintf (<span class="string">&quot;%s:%d: &quot;</span>, input_file, lineno)</span><br><span class="line">    ==&gt;  <span class="built_in">fprintf</span> (<span class="built_in">stderr</span>, <span class="string">&quot;%s:%d: &quot;</span>, input_file, lineno)</span><br></pre></td></tr></table></figure>
+<p>当__VA_ARGS__宏前面##时，可以省略参数输入。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> eprintf(format, ...) fprintf (stderr, format, ##__VA_ARGS__)</span></span><br><span class="line"></span><br><span class="line">eprintf (<span class="string">&quot;success!\n&quot;</span>)</span><br><span class="line">    ==&gt; <span class="built_in">fprintf</span>(<span class="built_in">stderr</span>, <span class="string">&quot;success!\n&quot;</span>);</span><br></pre></td></tr></table></figure>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/freeWayWalker/article/details/50220049">【C基础】#define宏定义中的#，##，@#，\ 这些符号的神奇用法_freeWayWalker的博客-CSDN博客_宏定义中##</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/pirlck/article/details/51254590">C语言的宏总结_RoyKuang07的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/jiayongqiang/p/5092118.html">C语言预处理命令总结大全 :宏定义 - 西贝了爷 - 博客园</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/fengc5/p/5083134.html">C语言中宏定义（#define）时do{}while(0)的价值 - 老码农 - 博客园</a></p>
+<h3 id="杂">杂</h3>
+<p>以下部分为C语言中的一些小知识点就不再过多阐述。</p>
+<p><a target="_blank" rel="noopener" href="http://www.spongeliu.com/415.html">do{…}while(0)的意义和用法</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/99efda8dfec9">do{…}while(0)的妙用 - 简书</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/liang13664759/article/details/1771246">Linux makefile 教程 非常详细，且易懂_liang13664759的博客-CSDN博客_linux makefile</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/shrinkshr/article/details/85838416">Automake简介_ignorantshr的博客-CSDN博客_automake介绍</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/jeakeven/p/5546614.html">linux --&gt; Autoconf和Automake使用 - 蚂蚁吃大象、 - 博客园</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_41854911/article/details/117390949">C语言位操作详解(全网最全)_小熊coder的博客-CSDN博客_c语言位操作</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/u010429831/article/details/122995406">C语言基础 - 位操作用法总结_yunfan188的博客-CSDN博客_c语言中置位作用</a></p>
+<h2 id="C">C++</h2>
+<h3 id="引用">引用 &amp;</h3>
+<p>在c++中 &amp;不再是地址运算符，而是类型标识符的一部分。</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qingkongyeyue/article/details/54344085">C++中引用（&amp;）的用法和应用实例_qingkongyeyue的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/duhengqi/article/details/70198630">C++：引用作为返回值_duhengqi的博客-CSDN博客_返回值引用</a></p>
+<h3 id="const">const</h3>
+<h4 id="常量指针和指向常量的指针">常量指针和指向常量的指针</h4>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> * <span class="keyword">const</span> p = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> *p = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span>* <span class="keyword">const</span> p = <span class="number">1</span>;</span><br></pre></td></tr></table></figure>
+<p>(一)表示p本身是一个const，所以p所指的地址不会变，但是地址里的值是可以修改的。</p>
+<p>(二)则是地址的值是不可修改的，而p是可以变的。</p>
+<p>(三)则是两者都不可变。</p>
+<h4 id="类相关const">类相关const</h4>
+<p>const修饰成员函数，则该成员函数不能修改类中任何非const成员函数。const成员函数不被允许修改它所在对象的任何一个数据成员。const成员函数能够访问对象的const成员，而其他成员函数不可以。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">A</span>&#123;</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">function</span><span class="params">()</span> <span class="keyword">const</span></span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>const修饰类对象/对象指针/对象引用， const修饰的对象，该对象的任何非const成员函数都不能被调用，因为任何非const成员函数会有修改成员变量的企图。</p>
+<h4 id="constexper">constexper</h4>
+<p>const 和 constexpr 变量之间的主要区别在于：const 变量的初始化可以延迟到运行时，而 constexpr 变量必须在编译时进行初始化。所有 constexpr 变量均为常量，因此必须使用常量表达式初始化。所以constexper的运行效率也会更高一些。</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/Eric_Jo/article/details/4138548">关于C++ const 的全面总结_Eric_Jo的博客-CSDN博客_c++const</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/haolexiao/article/details/53471063">C++中const和引用修饰变量和函数的总结_哈乐笑的博客-CSDN博客</a></p>
+<h3 id="friend-operator">friend &amp; operator</h3>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/yangxx-1990/p/8480920.html">C++ 中重载运算符 “&lt;” 及 friend属性 - 时光回眸 - 博客园 (cnblogs.com)</a></p>
+<p><a target="_blank" rel="noopener" href="http://blog.chinaunix.net/uid-790245-id-2037327.html">C++中友元详解-zhm_sunboy-ChinaUnix博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/rongbo_j/article/details/45094003">C++中友元类使用场合_江荣波的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.runoob.com/cplusplus/cpp-overloading.html">C++ 重载运算符和重载函数 | 菜鸟教程</a></p>
+<p><a target="_blank" rel="noopener" href="https://dablelv.blog.csdn.net/article/details/82818801">C++ 仿函数_恋喵大鲤鱼的博客-CSDN博客_c++ 仿函数</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_38293125/article/details/80931349">逗号运算符的重载_肖火柴的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/codedoctor/article/details/76187567">【C++】 深入探究 new 和 delete_codedoctor的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_35987777/article/details/102969055">关于c++ new操作符的重载_selfsongs的博客-CSDN博客_c++ 重载new</a></p>
+<h3 id="class">class</h3>
+<h4 id="构造函数-析构函数">构造函数 &amp; 析构函数</h4>
+<p>此处注意是引用还是拷贝，具体例子可以见下列博客。</p>
+<h4 id="继承">继承</h4>
+<p>多继承</p>
+<p>虚拟继承</p>
+<h4 id="多态">多态</h4>
+<p><strong>虚函数</strong> 是在基类中使用关键字 <strong>virtual</strong> 声明的函数。在派生类中重新定义基类中定义的虚函数时，会告诉编译器不要静态链接到该函数。</p>
+<p>我们想要的是在程序中任意点可以根据所调用的对象类型来选择调用的函数，这种操作被称为<strong>动态链接</strong>，或<strong>后期绑定</strong>。</p>
+<p><strong>纯虚函数</strong> 形如<code>virtual function() = 0</code> 。以便在派生类中重新定义该函数更好地适用于对象，但是您在基类中又不能对虚函数给出有意义的实现，这个时候就会用到纯虚函数。</p>
+<h4 id="接口（抽象类）">接口（抽象类）</h4>
+<p>C++ 接口是使用<strong>抽象类</strong>来实现的，抽象类与数据抽象互不混淆，数据抽象是一个把实现细节与相关的数据分离开的概念。</p>
+<p>如果类中至少有一个函数被声明为纯虚函数，则这个类就是抽象类。纯虚函数是通过在声明中使用 “= 0” 来指定的。</p>
+<p>设计<strong>抽象类</strong>（通常称为 ABC）的目的，是为了给其他类提供一个可以继承的适当的基类。抽象类不能被用于实例化对象，它只能作为<strong>接口</strong>使用。如果试图实例化一个抽象类的对象，会导致编译错误。</p>
+<p>因此，如果一个 ABC 的子类需要被实例化，则必须实现每个虚函数，这也意味着 C++ 支持使用 ABC 声明接口。如果没有在派生类中重写纯虚函数，就尝试实例化该类的对象，会导致编译错误。</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_32583189/article/details/52415478">C++:类的构造函数和析构函数_陈小默cxm的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/learnhow/p/6124738.html">C++ 构造函数、析构函数、拷贝构造、赋值运算符 - 冷豪 - 博客园</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/m0_37622246/article/details/100132478">C++子类的构造、析构和拷贝函数_m0_37622246的博客-CSDN博客_子类的拷贝构造函数</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/liyuanbhu/article/details/43897979">C++ 中的嵌套类和局部类_liyuanbhu的博客-CSDN博客_c++ 嵌套类</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/bruce_0712/article/details/54984371">C++之enum枚举量声明、定义、使用与枚举类详解_Bruce_0712的博客-CSDN博客_c++ enum 定义</a></p>
+<p><a target="_blank" rel="noopener" href="http://www.jb51.net/article/41326.htm">C++嵌套类与局部类详细解析_C 语言_脚本之家</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.runoob.com/cplusplus/cpp-polymorphism.html">C++ 多态 | 菜鸟教程 (runoob.com)</a></p>
+<h3 id="namespace">namespace</h3>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/touzani/article/details/1637776">C++ 命名空间namespace_touzani的博客-CSDN博客_c++名称必须是命名空间名</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/K346K346/article/details/48089725">C++ 名字空间详解_恋喵大鲤鱼的博客-CSDN博客</a></p>
+<h3 id="template">template</h3>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/kee131/article/details/41575947">C++模板（c++ primer）_ZenZenZ的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/yzhang6_10/article/details/50839516">C++模板总结_Dream_yz的博客-CSDN博客_c++模板</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/look01/article/details/3228134">c++模板类(一)理解编译器的编译模板过程_look01的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_35637562/article/details/55194097">C++模板template用法总结_清城无雪的博客-CSDN博客_c template</a></p>
+<p><a target="_blank" rel="noopener" href="http://c.biancheng.net/view/327.html">C++类模板（模板类）与友元详解</a></p>
+<h3 id="STL">STL</h3>
+<p><a target="_blank" rel="noopener" href="http://c.biancheng.net/stl/">STL教程：C++ STL快速入门（非常详细）</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/shiyangxt/archive/2008/09/11/1289493.html">C++:STL标准入门汇总 - 施杨 - 博客园</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/u014465639/article/details/70241850">C++ STL中容器的使用全面总结_jimofanhua0000的博客-CSDN博客_容器c++</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/u013443618/article/details/49964299">深入解析C++ STL中的常用容器_渴望可及的博客-CSDN博客_c++ 容器</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/lidabo/p/9294874.html">Boost C++ 库 中文教程(全) - DoubleLi - 博客园</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.boost.org/">https://www.boost.org/</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/zhonghuasong/p/5975979.html">C++ STL之vector用法总结 - 清水汪汪 - 博客园</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/xiaoquantouer/article/details/70339869">c++ STL的list用法总结_小拳头的博客-CSDN博客_stl的list</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/fnlingnzb-learner/p/5833051.html">C++中的STL中map用法详解 - Boblim - 博客园</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/liangzhaoyang1/article/details/51413108">STL中的Pair方法详解_LzyRapX的博客-CSDN博客_pair构造函数</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/cerberux/article/details/51774121">C++ STL set容器常用用法_CerberuX的博客-CSDN博客_c++ set容器</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/wutao1530663/article/details/64922389">C++标准模板库(STL)迭代器的原理与实现_wutao02的博客-CSDN博客_stl迭代器</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/tianshuai1111/article/details/7674327">【C++ STL】算法 <algorithm>中各种算法解析_小田的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/wanghairong2015/article/details/53053616">C++_STL_algorithm(算法)_wanghairong2015的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/flowing_wind/article/details/81301001">【C++】智能指针详解_Billy12138的博客-CSDN博客_智能指针</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/tengfei461807914/article/details/52203202">C++ string的用法和例子_红鲤鱼遇绿鲤鱼的博客-CSDN博客_stringc++</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/hero_myself/article/details/52313617">【C++】STL常用容器总结之十二：string类_长相忆兮长相忆的博客-CSDN博客_string容器</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/8b87a05c23b1">C++11新特性–Unicode支持 - 简书</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/u010710458/article/details/79734558">STL之仿函数实现详解_有时需要偏执狂的博客-CSDN博客_stl 仿函数</a></p>
+<h3 id="异常">异常</h3>
+<h4 id="throw">throw</h4>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">throw</span> .....;<span class="comment">//抛出一个异常</span></span><br><span class="line"><span class="keyword">throw</span> ;<span class="comment">//重抛出异常</span></span><br></pre></td></tr></table></figure>
+<h4 id="catch">catch</h4>
+<p>如果执行try语句抛出异常，则在catch子句中搜索相应的异常处理代码，异常类型的匹配规则为：</p>
+<ul>
+<li>被抛出异常的类型与catch子句声明的类型相同。</li>
+<li>被抛出异常的类型是catch子句声明的类型子类型。（public dereived）</li>
+</ul>
+<p>引用类型的异常只会在最后一次引用处析构结束。</p>
+<p><a target="_blank" rel="noopener" href="http://www.runoob.com/cplusplus/cpp-exceptions-handling.html">C++ 异常处理 | 菜鸟教程</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/sky453589103/article/details/49862949">深入理解C++异常_waponx的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/stary_yan/article/details/51285774">[C++]详解异常处理（Exception Handling) 及标准库异常处理类_stary_yan的博客-CSDN博客</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/leonardwang/article/details/5744326">C++异常机制的实现方式和开销分析_leonardWang的博客-CSDN博客</a></p>
+
+
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
+          
+          
+          <li class="next">
+            <a href="/en/Hello/" data-toggle="tooltip" data-placement="top" title="Hello">Next Post &rarr;</a>
+          </li>
+          
+        </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=高级程序设计语言&body=Hi,I found this website and thought you might like it http://example.com/cn/高级程序设计语言/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
+      </div>
+
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#C%E8%AF%AD%E8%A8%80"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">C语言</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#typedef"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">typedef</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#typedef%E4%B8%8Edefine%E5%8C%BA%E5%88%AB"><span class="toc-nav-number">1.1.1.</span> <span class="toc-nav-text">typedef与define区别</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#typedef%E4%B8%8Econst%E5%90%8C%E6%97%B6%E5%87%BA%E7%8E%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98"><span class="toc-nav-number">1.1.2.</span> <span class="toc-nav-text">typedef与const同时出现的一些问题</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#typedef-%E6%8E%A9%E9%A5%B0%E7%AC%A6%E5%90%88%E7%B1%BB%E5%9E%8B"><span class="toc-nav-number">1.1.3.</span> <span class="toc-nav-text">typedef 掩饰符合类型</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#static-extern"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">static &amp; extern</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#static"><span class="toc-nav-number">1.2.1.</span> <span class="toc-nav-text">static</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#%E5%8F%98%E9%87%8F"><span class="toc-nav-number">1.2.1.1.</span> <span class="toc-nav-text">变量</span></a></li><li class="toc-nav-item toc-nav-level-5"><a class="toc-nav-link" href="#%E5%87%BD%E6%95%B0"><span class="toc-nav-number">1.2.1.2.</span> <span class="toc-nav-text">函数</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#extern"><span class="toc-nav-number">1.2.2.</span> <span class="toc-nav-text">extern</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8C%87%E9%92%88"><span class="toc-nav-number">1.3.</span> <span class="toc-nav-text">指针</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E6%95%B0%E7%BB%84%E6%8C%87%E9%92%88"><span class="toc-nav-number">1.3.1.</span> <span class="toc-nav-text">数组指针</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E6%8C%87%E9%92%88%E6%95%B0%E7%BB%84"><span class="toc-nav-number">1.3.2.</span> <span class="toc-nav-text">指针数组</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E4%BC%A0%E5%8F%82"><span class="toc-nav-number">1.3.3.</span> <span class="toc-nav-text">一维数组传参</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E4%B8%80%E7%BB%B4%E6%8C%87%E9%92%88%E6%95%B0%E7%BB%84%E4%BC%A0%E5%8F%82"><span class="toc-nav-number">1.3.4.</span> <span class="toc-nav-text">一维指针数组传参</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%BC%A0%E5%8F%82"><span class="toc-nav-number">1.3.5.</span> <span class="toc-nav-text">二维数组传参</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-nav-number">1.4.</span> <span class="toc-nav-text">字符串</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#strlen"><span class="toc-nav-number">1.4.1.</span> <span class="toc-nav-text">strlen</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#strcpy"><span class="toc-nav-number">1.4.2.</span> <span class="toc-nav-text">strcpy</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#strncpy"><span class="toc-nav-number">1.4.3.</span> <span class="toc-nav-text">strncpy</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#strcat"><span class="toc-nav-number">1.4.4.</span> <span class="toc-nav-text">strcat</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#strncat"><span class="toc-nav-number">1.4.5.</span> <span class="toc-nav-text">strncat</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%87%BD%E6%95%B0%E6%8C%87%E9%92%88"><span class="toc-nav-number">1.5.</span> <span class="toc-nav-text">函数指针</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#struct-union"><span class="toc-nav-number">1.6.</span> <span class="toc-nav-text">struct &amp; union</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#struct"><span class="toc-nav-number">1.6.1.</span> <span class="toc-nav-text">struct</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#union"><span class="toc-nav-number">1.6.2.</span> <span class="toc-nav-text">union</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86"><span class="toc-nav-number">1.7.</span> <span class="toc-nav-text">内存管理</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#malloc"><span class="toc-nav-number">1.7.1.</span> <span class="toc-nav-text">malloc</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#new"><span class="toc-nav-number">1.7.2.</span> <span class="toc-nav-text">new</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#File"><span class="toc-nav-number">1.8.</span> <span class="toc-nav-text">File</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#define"><span class="toc-nav-number">1.9.</span> <span class="toc-nav-text">define</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E8%BF%9E%E6%8E%A5%E6%93%8D%E4%BD%9C%E7%AC%A6"><span class="toc-nav-number">1.9.1.</span> <span class="toc-nav-text">## 连接操作符</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E5%AD%97%E7%AC%A6%E5%8C%96%E6%93%8D%E4%BD%9C%E7%AC%A6"><span class="toc-nav-number">1.9.2.</span> <span class="toc-nav-text">#@ 字符化操作符</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%96%E6%93%8D%E4%BD%9C%E7%AC%A6"><span class="toc-nav-number">1.9.3.</span> <span class="toc-nav-text"># 字符串化操作符</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E8%A1%8C%E7%BB%A7%E7%BB%AD%E6%93%8D%E4%BD%9C"><span class="toc-nav-number">1.9.4.</span> <span class="toc-nav-text">\ 行继续操作</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#VA-ARGS"><span class="toc-nav-number">1.9.5.</span> <span class="toc-nav-text">VA_ARGS</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%9D%82"><span class="toc-nav-number">1.10.</span> <span class="toc-nav-text">杂</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#C"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">C++</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%BC%95%E7%94%A8"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">引用 &amp;</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#const"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">const</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E5%B8%B8%E9%87%8F%E6%8C%87%E9%92%88%E5%92%8C%E6%8C%87%E5%90%91%E5%B8%B8%E9%87%8F%E7%9A%84%E6%8C%87%E9%92%88"><span class="toc-nav-number">2.2.1.</span> <span class="toc-nav-text">常量指针和指向常量的指针</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E7%B1%BB%E7%9B%B8%E5%85%B3const"><span class="toc-nav-number">2.2.2.</span> <span class="toc-nav-text">类相关const</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#constexper"><span class="toc-nav-number">2.2.3.</span> <span class="toc-nav-text">constexper</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#friend-operator"><span class="toc-nav-number">2.3.</span> <span class="toc-nav-text">friend &amp; operator</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#class"><span class="toc-nav-number">2.4.</span> <span class="toc-nav-text">class</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0-%E6%9E%90%E6%9E%84%E5%87%BD%E6%95%B0"><span class="toc-nav-number">2.4.1.</span> <span class="toc-nav-text">构造函数 &amp; 析构函数</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E7%BB%A7%E6%89%BF"><span class="toc-nav-number">2.4.2.</span> <span class="toc-nav-text">继承</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E5%A4%9A%E6%80%81"><span class="toc-nav-number">2.4.3.</span> <span class="toc-nav-text">多态</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E6%8E%A5%E5%8F%A3%EF%BC%88%E6%8A%BD%E8%B1%A1%E7%B1%BB%EF%BC%89"><span class="toc-nav-number">2.4.4.</span> <span class="toc-nav-text">接口（抽象类）</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#namespace"><span class="toc-nav-number">2.5.</span> <span class="toc-nav-text">namespace</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#template"><span class="toc-nav-number">2.6.</span> <span class="toc-nav-text">template</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#STL"><span class="toc-nav-number">2.7.</span> <span class="toc-nav-text">STL</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%BC%82%E5%B8%B8"><span class="toc-nav-number">2.8.</span> <span class="toc-nav-text">异常</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#throw"><span class="toc-nav-number">2.8.1.</span> <span class="toc-nav-text">throw</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#catch"><span class="toc-nav-number">2.8.2.</span> <span class="toc-nav-text">catch</span></a></li></ol></li></ol></li></ol>
+        
+        </div>
+      </aside>
+    
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+        <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#高级程序设计语言" title="高级程序设计语言">高级程序设计语言</a>
+            
+          </div>
+        </section>
+        
+
+        <!-- Friends Blog -->
+        
+        <hr>
+        <h5>链友</h5>
+        <ul class="list-inline">
+
+          
+          <li>
+            <a href="https://hexo.io/" target="_blank">Hexo</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
+
+
+		<!-- Footer (contains ThemeColor、viewer) -->
+		<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+
+          
+            <li>
+              <a target="_blank" href="https://github.com/wtz2333">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+            <li>
+              <a target="_blank" href="https://www.zhihu.com/people/wtz2333">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa  fa-stack-1x fa-inverse">知</i>
+                </span>
+              </a>
+            </li>
+          
+
+          
+
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy;
+          wtz2333
+          2022
+          <br>
+          Theme by
+          <a target="_blank" rel="noopener" href="http://beantech.org">BeanTech</a>
+          <span style="display: inline-block; margin: 0 5px;">
+            <i class="fa fa-heart"></i>
+          </span>
+          re-Ported by
+          <a target="_blank" rel="noopener" href="https://v-vincen.life/">Live My Life</a>
+          |
+          <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=V-Vincen&repo=V-Vincen.github.io&type=star&count=true"></iframe>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<a id="rocket" href="#top" class=""></a>
+
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="/js/jquery.min.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script type="text/javascript" src="/js/hux-blog.min.js"></script>
+  <!-- catalog -->
+  <script async="true" type="text/javascript" src="/js/catalog.js"></script>
+  <!-- totop(rocket) -->
+  <script async="true" type="text/javascript" src="/js/totop.js"></script>
+
+  
+    <!-- Busuanzi JavaScript -->
+    <script async="async" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+
+  
+    <!-- Scroll start -->
+    <script async="async" type="text/javascript" src="/js/scroll.js"></script>
+    <!-- Scroll end -->
+  
+
+  
+    <!-- LangSelect start -->
+    <script type="text/javascript" src="/js/langselect.js"></script>
+    <!-- LangSelect end -->
+  
+
+  
+    <!-- Mouseclick -->
+    <script type="text/javascript" src="/js/mouseclick.js" content='咕咕咕...,不要在点我了,写作不易，点个收藏再走吧,欢迎来到wtz2333的博客,见到你很高兴' color='#9933CC,#339933,#66CCCC,#FF99CC,#CCCCFF'></script>
+  
+
+  
+    <!-- ribbon -->
+    <script type="text/javascript" src="/js/ribbonDynamic.js"></script>
+  
+
+  
+
+
+
+
+
+
+  <!-- viewer start -->
+  <!-- viewer start (Picture preview) -->
+  
+    <script async="async" type="text/javascript" src="/js/viewer/viewer.min.js"></script>
+    <script async="async" type="text/javascript" src="/js/viewer/pic-viewer.js"></script>
+  
+
+  <!-- viewer end -->
+
+
+<script>
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function (e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  }
+
+  // fastClick.js
+  async ("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
+    var $nav = document.querySelector("nav");
+    if ($nav)
+      FastClick.attach($nav);
+    }
+  )
+</script>
+
+<!-- Because of the native support for backtick-style fenced code blocks right within the Markdown is landed in Github Pages, From V1.6, There is no need for Highlight.js, so Huxblog drops it officially. -
+https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0 - https://help.github.com/articles/creating-and-highlighting-code-blocks/ -->
+<!-- <script> async ("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function () { hljs.initHighlightingOnLoad(); }) </script> <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet"> -->
+
+<!-- jquery.tagcloud.js -->
+<!-- <script> // only load tagcloud.js in tag.html if ($('#tag_cloud').length !== 0) { async ("http://example.com/js/jquery.tagcloud.js", function () { $.fn.tagcloud.defaults = { // size: { start: 1, end: 1, unit: 'em' }, color: {
+start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </script> -->
+
+
+		<!-- Search -->
+		
+		<div class="popup search-popup local-search-popup">
+  <span class="popup-btn-close">
+    ESC
+  </span>
+  <div class="container">
+    <div class="row">
+      <!-- <div class="col-md-9 col-md-offset-1"> -->
+      <div class="col-lg-9 col-lg-offset-1 col-md-10 col-md-offset-1 local-search-content">
+
+        <div class="local-search-header clearfix">
+
+          <div class="local-search-input-wrapper">
+            <span class="search-icon">
+              <i class="fa fa-search fa-lg" style="margin: 25px 10px 25px 20px;"></i>
+            </span>
+            <input autocomplete="off" placeholder="搜索..." type="text" id="local-search-input">
+          </div>
+        </div>
+        <div id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+    <script src="/js/ziploader.js"></script>
+  
+  <script>
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.json";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    // monitor main search box;
+    var onPopupClose = function (e) {
+      $('.popup').fadeOut(300);
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $('.popup').fadeIn(300);
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+    // get search zip version
+    $.get('/searchVersion.json?t=' + (+new Date()), function (res) {
+      if (localStorage.getItem('searchVersion') !== res) {
+        localStorage.setItem('searchVersion', res);
+        initSearchJson();
+      }
+    });
+
+    function initSearchJson() {
+      initLoad(['/search.flv'], {
+        loadOptions: {
+          success: function (obj) {
+            localStorage.setItem('searchJson', obj['search.json'])
+          },
+          error: function (e) {
+            return console.log(e)
+          }
+        },
+        returnOptions: {
+          'json': TYPE_TEXT
+        },
+        mimeOptions: {
+          'json': 'application/json'
+        }
+      })
+    }
+    // search function;
+    var searchFunc = function (search_id, content_id) {
+      'use strict';
+      isfetched = true;
+      var datas = JSON.parse(localStorage.getItem('searchJson'));
+      // console.log(search_id)
+      var input = document.getElementById(search_id);
+      var resultContent = document.getElementById(content_id);
+      var inputEventFunction = function () {
+        var searchText = input.value.trim().toLowerCase();
+        var keywords = searchText.split(/[\s\-]+/);
+        if (keywords.length > 1) {
+          keywords.push(searchText);
+        }
+        var resultItems = [];
+        if (searchText.length > 0) {
+          // perform local searching
+          datas.forEach(function (data) {
+            var isMatch = false;
+            var hitCount = 0;
+            var searchTextCount = 0;
+            var title = data.title
+              ? data.title.trim()
+              : '';
+            var titleInLowerCase = title.toLowerCase();
+            var content = data.content
+              ? data.content.trim().replace(/<[^>]+>/g, "")
+              : '';
+            var contentInLowerCase = content.toLowerCase();
+            var articleUrl = decodeURIComponent(data.url);
+
+            var date = data.date;
+            var dateTime = date.replace(/T/, " ").replace(/.000Z/, "");
+            var imgUrl = data.header_img;
+            
+
+
+            var indexOfTitle = [];
+            var indexOfContent = [];
+            // only match articles with not empty titles
+            keywords.forEach(function (keyword) {
+              function getIndexByWord(word, text, caseSensitive) {
+                var wordLen = word.length;
+                if (wordLen === 0) {
+                  return [];
+                }
+                var startPosition = 0,
+                  position = [],
+                  index = [];
+                if (!caseSensitive) {
+                  text = text.toLowerCase();
+                  word = word.toLowerCase();
+                }
+                while ((position = text.indexOf(word, startPosition)) > -1) {
+                  index.push({position: position, word: word});
+                  startPosition = position + wordLen;
+                }
+                return index;
+              }
+              indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+              indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+            });
+            if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+              isMatch = true;
+              hitCount = indexOfTitle.length + indexOfContent.length;
+            }
+            // show search results
+            if (isMatch) {
+              // sort index by position of keyword
+              [indexOfTitle, indexOfContent].forEach(function (index) {
+                index.sort(function (itemLeft, itemRight) {
+                  if (itemRight.position !== itemLeft.position) {
+                    return itemRight.position - itemLeft.position;
+                  } else {
+                    return itemLeft.word.length - itemRight.word.length;
+                  }
+                });
+              });
+              // merge hits into slices
+              function mergeIntoSlice(text, start, end, index) {
+                var item = index[index.length - 1];
+                var position = item.position;
+                var word = item.word;
+                var hits = [];
+                var searchTextCountInSlice = 0;
+                while (position + word.length <= end && index.length != 0) {
+                  if (word === searchText) {
+                    searchTextCountInSlice++;
+                  }
+                  hits.push({position: position, length: word.length});
+                  var wordEnd = position + word.length;
+                  // move to next position of hit
+                  index.pop();
+                  while (index.length != 0) {
+                    item = index[index.length - 1];
+                    position = item.position;
+                    word = item.word;
+                    if (wordEnd > position) {
+                      index.pop();
+                    } else {
+                      break;
+                    }
+                  }
+                }
+                searchTextCount += searchTextCountInSlice;
+                return {hits: hits, start: start, end: end, searchTextCount: searchTextCountInSlice};
+              }
+              var slicesOfTitle = [];
+              if (indexOfTitle.length != 0) {
+                slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+              }
+              var slicesOfContent = [];
+              while (indexOfContent.length != 0) {
+                var item = indexOfContent[indexOfContent.length - 1];
+                var position = item.position;
+                var word = item.word;
+                // cut out 100 characters
+                var start = position - 20;
+                var end = position + 80;
+                if (start < 0) {
+                  start = 0;
+                }
+                if (end < position + word.length) {
+                  end = position + word.length;
+                }
+                if (end > content.length) {
+                  end = content.length;
+                }
+                slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+              }
+              // sort slices in content by search text's count and hits' count
+              slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                  return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                  return sliceRight.hits.length - sliceLeft.hits.length;
+                } else {
+                  return sliceLeft.start - sliceRight.start;
+                }
+              });
+              // select top N slices in content
+              var upperBound = parseInt('1');
+              if (upperBound >= 0) {
+                slicesOfContent = slicesOfContent.slice(0, upperBound);
+              }
+              // highlight title and content
+              function highlightKeyword(text, slice) {
+                var result = '';
+                var prevEnd = slice.start;
+                slice.hits.forEach(function (hit) {
+                  result += text.substring(prevEnd, hit.position);
+                  var end = hit.position + hit.length;
+                  result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                  prevEnd = end;
+                });
+                result += text.substring(prevEnd, slice.end);
+                return result;
+              }
+              var resultItem = '';
+
+              // if (slicesOfTitle.length != 0) {   resultItem += "<li><a target='_blank' href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>"; } else {   resultItem += "<li><a target='_blank' href='" +
+              // articleUrl + "' class='search-result-title'>" + title + "</a>"; } slicesOfContent.forEach(function (slice) {   resultItem += "<a target='_blank' href='" + articleUrl + "'><p class=\"search-result\">" + highlightKeyword(content, slice) +
+              // "...</p></a>"; }); resultItem += "</li>";
+
+              if (slicesOfTitle.length != 0) {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              } else {
+                resultItem += "<a target='_blank' href='" + articleUrl + "' class='search-result'><div class='search-result-left'><div class='search-result-title'>" + title + "</div><time class='search-result-date'>" + dateTime + "</time>";
+              }
+              slicesOfContent.forEach(function (slice) {
+                resultItem += "<p class=\"search-result-content\">" + highlightKeyword(content, slice) + "...</p>";
+              });
+              resultItem += "</div><div class='search-result-right'><img class='media-image' src='" + imgUrl + "' width='64px' height='48px'></img></div></a>";
+
+              resultItems.push({item: resultItem, searchTextCount: searchTextCount, hitCount: hitCount, id: resultItems.length});
+            }
+          })
+        };
+
+        if (keywords.length === 1 && keywords[0] === "") {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else if (resultItems.length === 0) {
+          resultContent.innerHTML = '<div id="no-result"></div>'
+        } else {
+          resultItems.sort(function (resultLeft, resultRight) {
+            if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+              return resultRight.searchTextCount - resultLeft.searchTextCount;
+            } else if (resultLeft.hitCount !== resultRight.hitCount) {
+              return resultRight.hitCount - resultLeft.hitCount;
+            } else {
+              return resultRight.id - resultLeft.id;
+            }
+          });
+          var searchResultList = '<div class=\"search-result-list\">';
+          resultItems.forEach(function (result) {
+            searchResultList += result.item;
+          })
+          searchResultList += "</div>";
+          resultContent.innerHTML = searchResultList;
+        }
+      }
+      if ('auto' === 'auto') {
+        input.addEventListener('input', inputEventFunction);
+      } else {
+        $('.search-icon').click(inputEventFunction);
+        input.addEventListener('keypress', function (event) {
+          if (event.keyCode === 13) {
+            inputEventFunction();
+          }
+        });
+      }
+      // remove loading animation
+      $('body').css('overflow', '');
+      proceedsearch();
+    }
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function (e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc('local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function (e) {
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 && $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+
+    document.addEventListener('mouseup', (e) => {
+      var _con = document.querySelector(".local-search-content");
+      if (_con) {
+        if (!_con.contains(e.target)) {
+          onPopupClose();
+        }
+      }
+    });
+  </script>
+
+
+		
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>
