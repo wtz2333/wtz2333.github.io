@@ -343,19 +343,19 @@
     .body--light {
       /* intro-header */
       --intro-header-background-image-url-home: url('/img/header_img/background.jpg');
-      --intro-header-background-image-url-post: url('img/header_img/background.jpg');
-      --intro-header-background-image-url-page: url('/img/header_img/background.jpg');
+      --intro-header-background-image-url-post: url('img/header_img/background.png');
+      --intro-header-background-image-url-page: url('/img/header_img/background.png');
     }
     .body--dark {
       --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/background.jpg');
-      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('img/header_img/background.jpg');
-      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/background.jpg');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('img/header_img/background.png');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/background.png');
     }
 
     header.intro-header {
        /*post*/
         background-image: var(--intro-header-background-image-url-post);
-        /* background-image: url('img/header_img/background.jpg'); */
+        /* background-image: url('img/header_img/background.png'); */
       
     }
 
@@ -469,12 +469,12 @@ In this setup, each node can send its model update to any set of users in the ne
 <p>在无集中式参数服务器的前提下，建立一种逻辑环的顺序（即对于当前环进行一个重标号），同时该分布式系统的图结构为一个完全图结构。</p>
 <h3 id="Model-Training">Model Training</h3>
 <p>$$<br>
-\mathbf {x}^{*} = \arg \min _{\mathbf {x}\in \mathbb {R}^{d} } \left [{ f(\mathbf {x}):= \frac {1}{r} \sum <em>{i=1}^{r} f</em>{i}(\mathbf {x})}\right ]<br>
+\mathbf {x}^{*} = \arg \min_{ \mathbf {x} \in \mathbb {R}^{d} } \left [ { f( \mathbf {x}): = \frac {1}{r}  \sum <em>{i=1}^{r} f</em>{i} ( \mathbf {x} ) } \right ]<br>
 $$</p>
 <p>找到一个最小的 $\mathbf {x} $ 使得后面的式子最小。（其中 $\mathbf {x}$ 为模型优化向量，$f_i$ 为节点 $i$ 的预期损失函数 $f_i(x)=E_{ζ_i∼P_i}[l_i(x,ζ_i)]$）</p>
 <p><strong>第k轮训练</strong></p>
 <p>$$<br>
-\mathbf {x}^{(i)}<em>{k}= \bar {\mathbf {x} }^{(i)}</em>{k}-\eta <em>{k}^{(i)} g</em>{i}(\bar {\mathbf {x} }^{(i)}_{k})<br>
+\mathbf {x}^{ ( i ) }<em>{k} = \bar { \mathbf {x} }^{ ( i ) }</em>{k} - \eta_{k}^{ ( i ) } g_{i} ( \bar { \mathbf {x} }^{ ( i ) }_{k} )<br>
 $$</p>
 <h2 id="The-Proposed-Basil-Algorithm">The Proposed Basil Algorithm</h2>
 <hr>
@@ -495,7 +495,7 @@ $$</p>
 <p>当前节点进行本地模型更新后，将模型顺时针发送到接下来 $S= b + 1$ 个节点。通过抽屉原理的操作可以使得每个良性节点至少会接收到一个良性节点的模型。</p>
 <hr>
 <h5 id="A-basil-模型聚合规则">$A_{basil}$ 模型聚合规则</h5>
-<p>$\bar {\mathbf {x} }<em>{k}^{(i)} = \mathcal {A}</em>{\texttt {Basil} } ( \mathcal {N}^{i}<em>{k}) = \arg \min <em>{ \mathbf {y} \in \mathcal {N}^{i}</em>{k} } \mathbb {E} \left [{ {l}</em>{i}({\mathbf {y} }, \zeta _{i})}\right ]$</p>
+<p>$\bar { \mathbf {x} }<em>{k}^{ ( i ) } = \mathcal {A}</em>{\texttt {Basil} } ( \mathcal {N}^{i}<em>{k} ) = \arg \min</em>{ \mathbf {y} \in \mathcal {N}^{i}<em>{k} } \mathbb {E} \left [ { {l}</em>{i} ( { \mathbf {y} }, \zeta _{i} ) } \right ]$</p>
 <p>其中 $\mathcal {N}^{i}_{k} = {\mathbf{y_1},…,\mathbf{y_S}}$</p>
 <p>通过该规则，在 接收到的 $S$ 个模型中选取最好的一个。</p>
 <hr>
@@ -513,13 +513,13 @@ $$</p>
 <blockquote>
 <p>When the learning rate $η^{(i)}_k$ for node $i∈R$ in round k satisfies $η^{(i)}_k\le \frac{1}{L}$ , the expected loss function $E[l_i(⋅)]$ of node $i$ evaluated on the set of models in $\mathcal{N}^i_k$ can be arranged as follows:</p>
 </blockquote>
-<p>$\mathbb {E} \left [{ l_{i} (\mathbf {y}<em>{1}) }\right ] \leq \mathbb {E} \left [{ l</em>{i} (\mathbf {y}<em>{2}) }\right ] \leq {\dots } \leq \mathbb {E} \left [{ l</em>{i} (\mathbf {y}<em>{r^{i} }) }\right ] &lt; \mathbb {E} \left [{ l</em>{i} (\mathbf {x}) }\right ], \forall \mathbf {x} \in \mathcal {B}_{k}^{i}$</p>
+<p>$\mathbb {E} \left [{ l_{i} ( \mathbf {y}<em>{1} ) } \right ] \leq \mathbb {E} \left [ { l</em>{i} ( \mathbf {y}<em>{2} ) } \right ] \leq { \dots } \leq \mathbb {E} \left [ { l</em>{i} ( \mathbf {y}<em>{r^{i} } ) } \right ] &lt; \mathbb {E} \left [ { l</em>{i} ( \mathbf {x} ) } \right ], \forall \mathbf {x} \in \mathcal {B}_{k}^{i}$</p>
 <p>注：<br>
-其中 $\mathcal { {G}<em>{k}^{i} }={ \mathbf{ {y}</em>{1} },\dots,\mathbf { {y}<em>{r</em>{i} } } }$ 为按照距离由近到远的良性节点发送的模型</p>
+其中 $ \mathcal {G}<em>{k}^{i}  = { \mathbf{ {y}</em>{1} },\dots,\mathbf { {y}<em>{r</em>{i} } } }$ 为按照距离由近到远的良性节点发送的模型</p>
 <p>其中 $\mathcal {B}_{k}^{i}$ 为按照距离由近到远的拜占庭节点发送的模型</p>
 <hr>
 <blockquote>
-<p>where $\mathcal{G^i_k}={\mathbf{y}<em>1,…,\mathbf{y</em>{r_i} }}$ is the set of benign models stored at node i . Hence, the Basil aggregation rule in Definition 1 is reduced to $\mathbf { {\bar x}<em>{k}^{(i)} }=\mathcal { {A</em>{Basil}{(N_{k}^{i})} } } = \mathbf {y_{1} }$ . Hence, the model update step in (2) can be simplified as follows:</p>
+<p>where $\mathcal {G}^{i}<em>{k}={\mathbf{y}<em>1,…,\mathbf{y</em>{r_i} }}$ is the set of benign models stored at node i . Hence, the Basil aggregation rule in Definition 1 is reduced to $\mathbf { {\bar x}</em>{k}^{(i)} }=\mathcal { {A_{Basil}{(N_{k}^{i})} } } = \mathbf {y_{1} }$ . Hence, the model update step in (2) can be simplified as follows:</p>
 </blockquote>
 <p>$\mathbf {x}<em>{k}^{(i)} = \mathbf {y}</em>{1} - \eta <em>{k}^{(i)} g</em>{i}(\mathbf {y}_{1})$</p>
 <p>注：此处可大致理解为更近的节点一定可以学习到了更多的模型，所以更近的节点学习效果一定更好。</p>
